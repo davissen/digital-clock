@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital Clock</title>
+	<style>
+		body{
+			background-color: green;
+		}
+		
+		h2{
+			text-align: center;
+		}
+
+		#clock{
+			size: 60px;	
+
+		}
+
+		h1{
+			text-align: center;
+		}
+
+		.center{
+
+			position: fixed;
+			top:50%;
+			left:50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="DigitalClock.js"></script>
+	
+</head>
+<body>
+	<div class="center">
+		<h1>The Current Time is</h1>
+
+		<h1 id="clock"></h1>
+	</div>
+</body>
+</html>
